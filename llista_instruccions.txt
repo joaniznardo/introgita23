@@ -1,0 +1,32 @@
+  455  cd Documents/
+  456  ls -l
+  457  mkdir casa institut
+  458  cd institut
+  459  ls -l
+  460  git clone git@github.com:joaniznardo/introgita23.git
+  461  ls -l
+  462  cd ..
+  463  cd casa
+  464  git clone git@github.com:joaniznardo/introgita23.git
+  465  cd ..
+  466  cd institut/
+  467  ls -l
+  468  cd introgita23/
+  469  ls -l
+  470  git status
+  471  echo 'mmmm.... ei, què hi ha mestre?!' | tee primer_fitxer.txt
+  472  ls -l
+  473  cat primer_fitxer.txt 
+  474  git status
+  475  git add primer_fitxer.txt 
+  476  git status
+  477  git commit -m 'primer canvi'
+  478  git status
+  479  git push
+  480  cd ..
+  481  cd casa
+  482  ls -l
+  483  cd introgita23/
+  484  git pull
+  485  ls -l
+  486  history | tee llista_instruccions.txt
